@@ -22,7 +22,10 @@ const Navbar: React.FC<INavbar> = ({ children }) => {
          <CssBaseline />
          <AppBar handleDrawerOpen={handleDrawerOpen} open={open} />
          <Sidebar handleDrawerClose={handleDrawerClose} open={open} />
-         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+         <Box
+            component="main"
+            sx={{ flexGrow: 1, p: 3, backgroundColor: "E5E5E5" }}
+         >
             <DrawerHeader />
             {children}
          </Box>

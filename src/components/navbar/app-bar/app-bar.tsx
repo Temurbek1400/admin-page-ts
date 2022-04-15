@@ -7,6 +7,7 @@ import { AppBarMui } from "./app-bar.styles";
 import { IAppBar } from "./../navbar.types";
 
 const AppBar = ({ handleDrawerOpen, open }: IAppBar) => {
+   debugger;
    return (
       <AppBarMui position="fixed" open={open}>
          <Toolbar>
@@ -22,8 +23,8 @@ const AppBar = ({ handleDrawerOpen, open }: IAppBar) => {
             >
                <MenuIcon />
             </IconButton>
-            <Typography variant="h6" noWrap component="div">
-               Mini variant drawer
+            <Typography variant="h6" noWrap component="div" color="#fff">
+               Analytics
             </Typography>
          </Toolbar>
       </AppBarMui>

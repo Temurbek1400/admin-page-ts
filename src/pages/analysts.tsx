@@ -5,7 +5,7 @@ import AnalystsBestDrivers from "./../components/analysts/analysts-best-drivers"
 
 const Analysts: React.FC = () => {
    return (
-      <Grid container spacing={4} sx={{ backgroundColor: "#E5E5E5" }}>
+      <Grid container spacing={4}>
          <Grid lg={6} item>
             <AnalystsChart />
          </Grid>
